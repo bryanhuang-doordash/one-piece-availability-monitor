@@ -1,0 +1,1 @@
+const a={CONFIG:"monitor_config",STATE:"monitor_state"},t={MIN:.5,MAX:3600,DEFAULT:5},s={MIN:1,MAX:99,DEFAULT:1},e={url:"",intervalSeconds:t.DEFAULT,quantity:s.DEFAULT},o={isMonitoring:!1,tabId:null,lastRefreshTime:null,attemptCount:0,lastError:null,successDetected:!1,addedToCart:!1,clickAttempted:!1,navigatedToCheckout:!1};export{e as D,t as I,s as Q,a as S,o as a};

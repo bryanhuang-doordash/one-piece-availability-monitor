@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Website Availability Monitor",
+  "version": "1.8.5",
+  "description": "Monitor websites for product availability by opening a real browser tab",
+  "permissions": ["storage", "tabs", "webNavigation", "notifications", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "48": "assets/icon-48.png",
+      "128": "assets/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  }
+}
